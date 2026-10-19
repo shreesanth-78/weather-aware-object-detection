@@ -1,35 +1,14 @@
-# Python cache
+# Python cache & Environments
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Environments
 .venv/
-venv/
-env/
 weather_cv/
 
-# IDEs and Notebooks
-.vscode/
-.ipynb_checkpoints/
-
-# Logs and tracking
-*.log
-runs/
-wandb/
-
-# Datasets and Downloads (Do NOT upload the 16k images)
+# Datasets and Downloads
 datasets/
 data/
 downloads/
 *.zip
-BDD100K.zip
-
-# Loose dataset images in the root directory ONLY
-/*.jpg
-/*.png
-/*.jpeg
 
 # Pretrained Weights and Models
 *.pth
